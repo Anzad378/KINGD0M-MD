@@ -35,7 +35,7 @@ const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
 
-🤲🕍  ┈─• *HOLY BIBLE* •─┈  🕍🤲
+🤲🕍  ┈─• *KINGDOM HOLY BIBLE* •─┈  🕍🤲
 
  💫 𝘈𝘭𝘭 Holy books 𝘢𝘯𝘥 𝘵𝘩𝘦𝘪𝘳 𝘯𝘶𝘮𝘣𝘦𝘳𝘴 𝘭𝘪𝘴𝘵
 𝘧𝘰𝘳 𝘨𝘦𝘵𝘵𝘪𝘯𝘨 books 𝘵𝘺𝘱𝘦 ${s.PREFIXE}bible judges 2:3 Or ${s.PREFIXE}biblie judges 3:6💫🌸 
@@ -128,10 +128,10 @@ let menuMsg = `
             contextInfo: {
                 mentionedJid: [senderName],
                 externalAdReply: {
-                    title: "*BWB-MD* HOLY BIBLE LIST",
+                    title: "*KINGDOM-MD* HOLY BIBLE LIST",
                     body: "Live with God my friends you don't know your tomorrow",
-                    thumbnailUrl: "https://files.catbox.moe/ygvlzy.jpg",
-                    sourceUrl: "https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610",
+                    thumbnailUrl: "https://files.catbox.moe/0kwukb.jpg",
+                    sourceUrl: "https://whatsapp.com/channel/0029Vb6CC2dB4hdPp1CrYv0f",
                     mediaType: 1,
                     renderLargerThumbnail: true
                 }
