@@ -21,7 +21,7 @@ async function sendMenuWithButtons(client, m, prefix = '!') {
 
     // Menu text
     const menuText = `
-╭──❍「 *BWB-XMD MENU* 」❍
+╭──❍「 *KINGDOM-MD MENU* 」❍
 │• ${prefix}help
 │• ${prefix}info
 │• ${prefix}fun
