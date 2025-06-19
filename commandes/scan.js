@@ -37,16 +37,16 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
  *Tap on the link to get session*
   
- https://b-w-b-session-id.onrender.com
+ https://kingdom-md-session-id.onrender.com/
 
  
  *STEPS TO GET SESSION*
  
  1. Open link
  2. Enter your whatsapp number with your country code eg : 254,144. And tap submit
- 3. Charleske-vmd  will sent you a code. Copy that code. Then whatsapp will sent Notification
- 4. Tap on that notification then enter in the code that Charleske tech sent you.
- 5. It will load for sometime then bwb xmd will sent A long session to your inbox on whatsapp at your own number
+ 3. kingdom md  will sent you a code. Copy that code. Then whatsapp will sent Notification
+ 4. Tap on that notification then enter in the code that kingdom md sent you.
+ 5. It will load for sometime then kingdom md will sent A long session to your inbox on whatsapp at your own number
  6. Copy that long session and sent it to your deployer.
  
  🫂🫂🫂
