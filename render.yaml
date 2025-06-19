@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: BWB-XMD
+    name: KINGDOM MD
     env: node # Change to "python" or your environment if not Node.js
     plan: free
     buildCommand: npm install # Change to your build command if different
