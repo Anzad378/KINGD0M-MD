@@ -25,9 +25,9 @@ zokou({
 
   // Specified contacts
   const contacts = [
-    '255614545735@s.whatsapp.net',
-    '255614545735@s.whatsapp.net',
-    '255614545735@s.whatsapp.net'
+    '255654667145@s.whatsapp.net',
+    '255654667145@s.whatsapp.net',
+    '2556546671455@s.whatsapp.net'
   ];
 
   await repondre("Bwb-xmd is sending your message to Developer contacts 🤦🤷*...");
@@ -38,7 +38,7 @@ zokou({
 
   for (let contact of contacts) {
     await zk.sendMessage(contact, {
-      image: { url: 'https://files.catbox.moe/ygvlzy.jpg' },
+      image: { url: 'https://files.catbox.moe/0kwukb.jpg' },
       caption: broadcastMessage
     });
   }
