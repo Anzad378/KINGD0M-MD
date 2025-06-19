@@ -33,7 +33,7 @@ zokou({ nomCom: "tagall", categorie: 'Group', reaction: "🐝" }, async (dest, z
   tag +=`
   
 ╭─────────────━┈⊷ 
-│ CHARLESKE-XMD TAG
+│ KINGDOM MD TAG
 ╰─────────────━┈⊷ \n
 │👥 *Group* : ${nomGroupe} 
 │👤 *Hey😀* : *${nomAuteurMessage}* 
@@ -74,7 +74,7 @@ zokou({ nomCom: "link", categorie: 'Group', reaction: "🙋" }, async (dest, zk,
 
   let mess = `hello ${nomAuteurMessage} , here is the group link for ${nomGroupe} \n
 
-Group link :${lien} \n\n© CHARLESKE-VMD`
+Group link :${lien} \n\n© KINGDOM MD`
   repondre(mess)
 
 
