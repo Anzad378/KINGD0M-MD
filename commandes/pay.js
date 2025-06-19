@@ -34,8 +34,8 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
 let infoMsg =  `
-1.\n> Recipient Name:** SAILAS ANTIM MAMSERI 
-2.\n> Mobile Number:** 0767862457 (Vodacom) 
+1.\n> Recipient Name:** ANZADI FARAJA BAYANA 
+2.\n> Mobile Number:** 255654667145 (Mixed by yass) 
 3.\n> Hello 👋\n${nomAuteurMessage}
 5.\n> Payment Method:** Online Payment  
 6.\n> Country:** Tanzania 🇹🇿
