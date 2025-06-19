@@ -90,7 +90,7 @@ zokou({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*BWB-XMD*\n
+      caption: `\n*KINGDOM MD*\n
 `,
         audio: { url: downloadUrl },
         mimetype: 'audio/mp4',
@@ -107,7 +107,7 @@ zokou({
         },
       },
       {
-      caption: `\n*BWB-XMD*\n
+      caption: `\n*KINGDOM MD*\n
 `,
         document: { url: downloadUrl },
         mimetype: 'audio/mpeg',
@@ -124,7 +124,7 @@ zokou({
         },
       },
       {
-      caption: `\n*BWB-XMD*\n
+      caption: `\n*KINGDOM MD*\n
 `,
         document: { url: downloadUrl },
         mimetype: 'audio/mp4',
@@ -218,7 +218,7 @@ zokou({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*BWB-XMD*\n
+      caption: `\n*KINGDOM MD*\n
 `,
         video: { url: downloadUrl },
         mimetype: 'video/mp4',
@@ -235,10 +235,10 @@ zokou({
         },
       },
       {
-      caption: `\n*BWB-MUSIC HUB*\n
+      caption: `\n*KINGDOM MD MUSIC HUB*\n
 
 
-> ðŸ’™POWERED BY PRINCE XMD âŽ`,
+> ðŸ’™POWERED BY KINGDOM MD âŽ`,
         document: { url: downloadUrl },
         mimetype: 'video/mp4',
         contextInfo: {
