@@ -62,7 +62,7 @@ zokou(
             {
               video: { url: lien },
               caption: infoMsg,
-              footer: `Hey ${nomAuteurMessage}! I'm BWB-XMD, created by PRINCE 😎`,
+              footer: `Hey ${nomAuteurMessage}! I'm KINGDOM MD, created by KINGDOM MD😎`,
               gifPlayback: true,
             },
             { quoted: ms }
