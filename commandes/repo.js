@@ -36,18 +36,18 @@ zokou(
 
       // Prepare the repo message with consistent styling
       const infoMsg = `
-      BWB-X𝐌𝐃
+      KINGDOM 𝐌𝐃
 
 ◈━━━━━━━━━━━━━━━━◈
-│❒ Yo ${nomAuteurMessage}, here’s the 411 on BWB XMD’s repo! 📦
-│❒ *🔗 𝐆𝐢𝐭𝐇𝐮𝐛*:https://github.com/Princetech-bwb/BWB-XMD/fork
-│❒ *📩 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 channel*: https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610
+│❒ Yo ${nomAuteurMessage}, here’s the 411 on KINGDOM MD’s repo! 📦
+│❒ *🔗 𝐆𝐢𝐭𝐇𝐮𝐛*:https://github.com/Anzad378/KINGD0M-MD/fork
+│❒ *📩 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩 channel*: https://whatsapp.com/channel/0029Vb6CC2dB4hdPp1CrYv0f
 │❒ *💾 𝐑𝐀𝐌 𝐔𝐬𝐚𝐠𝐞*: ${format(os.totalmem() - os.freemem())} / ${format(os.totalmem())}
-│❒ *👑 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫*: PRINCE TECH
+│❒ *👑 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫*: KINGDOM MD
 │❒ *🌐 𝐌𝐨𝐝𝐞*: ${mode}
 │❒ *📅 𝐃𝐚𝐭𝐞*: ${date}
 │❒ *⏰ 𝐓𝐢𝐦𝐞 (GMT)*: ${time}
-│❒ Powered by PRINCE TECH
+│❒ Powered by KINGDOM MD
 ◈━━━━━━━━━━━━━━━━◈
       `;
 
@@ -69,7 +69,7 @@ zokou(
           );
         } catch (e) {
           console.error("Video sending error:", e);
-          await repondre(`BWB-X𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, BWB XMD fumbled the video send: ${e.message} 😡 Here’s the repo info anyway! 😣\n${infoMsg}\n◈━━━━━━━━━━━━━━━━◈`);
+          await repondre('KINGDOM 𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, KINGDOM MD fumbled the video send: ${e.message} 😡 Here’s the repo info anyway! 😣\n${infoMsg}\n◈━━━━━━━━━━━━━━━━◈`);
         }
       }
       // Send the message with an image if the URL is an image (jpeg, png, jpg)
@@ -80,13 +80,13 @@ zokou(
             {
               image: { url: lien },
               caption: infoMsg,
-              footer: `Hey ${nomAuteurMessage}! I'm BWB XMD, created by PRINCE TECH  🇹🇿`,
+              footer: `Hey ${nomAuteurMessage}! I'm KINGDOM MD, created by KINDOM MD  🇹🇿`,
             },
             { quoted: ms }
           );
         } catch (e) {
           console.error("Image sending error:", e);
-          await repondre(`BWB-X𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, BWB XMD botched the image send: ${e.message} 😡 Here’s the repo info anyway! 😣\n${infoMsg}\n◈━━━━━━━━━━━━━━━━◈`);
+          await repondre(`KINGDOM 𝐌𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ Yo ${nomAuteurMessage}, KINGDOM MD botched the image send: ${e.message} 😡 Here’s the repo info anyway! 😣\n${infoMsg}\n◈━━━━━━━━━━━━━━━━◈`);
         }
       }
       // Fallback to text-only message if no valid media is provided
@@ -95,7 +95,7 @@ zokou(
       }
     } catch (e) {
       console.error("Error in repo command:", e);
-      await repondre(`BWB-XM𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ TOTAL BUST, ${nomAuteurMessage}! BWB XMD crashed while fetching repo info: ${e.message} 😡 Try again or flop! 😣\n◈━━━━━━━━━━━━━━━━◈`);
+      await repondre(`KINGDOM M𝐃\n\n◈━━━━━━━━━━━━━━━━◈\n│❒ TOTAL BUST, ${nomAuteurMessage}! KINGDOM MD crashed while fetching repo info: ${e.message} 😡 Try again or flop! 😣\n◈━━━━━━━━━━━━━━━━◈`);
     }
   }
 );
