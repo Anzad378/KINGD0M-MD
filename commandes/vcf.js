@@ -38,7 +38,7 @@ zokou({
     }
 
     // Notify user
-    repondre(`A moment, *BMB-TECH* is compiling ${groupMetadata.participants.length} contacts into a VCF file...`);
+    repondre(`A moment, *KINGDOM MD* is compiling ${groupMetadata.participants.length} contacts into a VCF file...`);
 
     // Ensure the file is properly created
     const filePath = './contacts.vcf';
@@ -54,7 +54,7 @@ zokou({
       document: fs.readFileSync(filePath),
       mimetype: 'text/vcard',
       fileName: `${groupMetadata.subject}.vcf`,
-      caption: `VCF for ${groupMetadata.subject}\nTotal Contacts: ${groupMetadata.participants.length}\n*KEEP USING BMB-XMD*`
+      caption: `VCF for ${groupMetadata.subject}\nTotal Contacts: ${groupMetadata.participants.length}\n*KEEP USING KINGDOM MD*`
     });
 
     // Clean up
