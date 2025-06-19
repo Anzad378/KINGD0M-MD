@@ -12,7 +12,7 @@ const moment = require("moment-timezone");
 const conf = require(__dirname + "/../set");
 
 const AUDIO_URL = "https://files.catbox.moe/mfhv0a.mp3"; // New audio URL
-const THUMBNAIL_URL = " https://files.catbox.moe/ygvlzy.jpg"; // New image URL
+const THUMBNAIL_URL = " https://files.catbox.moe/0kwukb.jpg"; // New image URL
 
 moment.tz.setDefault(`${conf.TZ}`);
 
@@ -39,8 +39,8 @@ zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions
         forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-              newsletterJid: '120363398106360290@newsletter',
-              newsletterName: 'BWB XMD',
+              newsletterJid: '120363401981451001@newsletter',
+              newsletterName: 'KINGDOM MD',
               serverMessageId: 143},
         externalAdReply: {
           
@@ -55,7 +55,7 @@ zokou({ nomCom: "ping", categorie: "General" }, async (dest, zk, commandeOptions
     }, { quoted: ms });
 
     await zk.sendMessage(dest, {
-        text: "```BWB IS STILL LIVE.✓```"
+        text: "```KINGDOM MD IS STILL LIVE.✓```"
     } ,{ quoted: ms });// Voice note form
     }catch (e) {
         console.log("❌ Ping Command Error: " + e);
