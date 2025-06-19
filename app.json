@@ -1,5 +1,5 @@
 {
-  "name":"PRINCE 𝙓𝙈𝘿",
+  "name":"KINGDOM MD",
   "description":"Best whatsapp bot💥 developed by princetech",
   "keywords":["bot","node","baileys","whatsapp"],
   "logo":"https://ibb.co/q70RyBd",
@@ -58,7 +58,7 @@
     "BOT_NAME" : {
        
       "description":"put A name for your bot",
-      "value":"BWB 𝙓𝙈𝘿",
+      "value":"KINGDOM MD",
       "required":false
 
     } ,
@@ -97,7 +97,7 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "princetech"
+    "value": "kingdom md"
   },
     "NUMERO_OWNER":
   {
