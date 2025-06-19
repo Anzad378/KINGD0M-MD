@@ -14,12 +14,12 @@ zokou({
     ms
   } = commandeOptions;
   if (!arg || arg.length === 0) {
-    return repondre("Example Usage: .code 25475962xxxxx.");
+    return repondre("Example Usage: .code 2556546xxxxx.");
   }
   try {
     // Notify user that pairing is in progress
 
-    await repondre("bwb xmd is generating your pairing code ✅...");
+    await repondre("KINGDOM MD is generating your pairing code ✅...");
 
     // Prepare the API request
     const encodedNumber = encodeURIComponent(arg.join(" "));
@@ -33,8 +33,8 @@ zokou({
         contextInfo: {
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: '120363398106360290@newsletter',
-            newsletterName: "bwb-xmd",
+            newsletterJid: '120363401981451001@newsletter',
+            newsletterName: "KINGDOM MD",
             serverMessageId: 143
           },
           forwardingScore: 999,
@@ -42,9 +42,9 @@ zokou({
           externalAdReply: {
             title: "bwb xmd",
             body: "Here is your pairing code",
-            thumbnailUrl: 'https://files.catbox.moe/ygvlzy.jpg',
+            thumbnailUrl: 'https://files.catbox.moe/0kwukb.jpg',
             // Add thumbnail URL if required 
-            sourceUrl: 'https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610',
+            sourceUrl: 'https://whatsapp.com/channel/0029Vb6CC2dB4hdPp1CrYv0f',
             // Add source URL if necessary
             mediaType: 1,
             renderLargerThumbnail: true
