@@ -1,4 +1,4 @@
 
 
 
-web: node bwb.js && node bwb.js
+web: node kingdom.js && node kingdom.js
