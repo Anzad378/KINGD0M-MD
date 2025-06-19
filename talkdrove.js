@@ -4,8 +4,8 @@
     "description": "Whiskey Sockets Baileys Whatsapp bot By Kingdom md",
     "logo": "https://files.catbox.moe/0kwukb.jpg",
     "keywords": ["bot"],
-    "documentation-link": "https://b-w-b-session-id.onrender.com",
-    "owner-verification": "majidiabduli917@gmail.com",  
+    "documentation-link": "https://kingdom-md-session-id.onrender.com/",
+    "owner-verification": "anzadanzad4@gmail.com",  
     "env": {
       "SESSION_ID": {
         "description": "Put your SESSION_ID here. Make sure it starts with ey~  or get session id from here,  https://charle-ke.onrender.com/",
@@ -20,17 +20,17 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "BWB-XMD"  
+      "value": "KINGDOM MD"  
     },    
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
-      "value": "public"      
+      "value": "private"      
     },        
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
       "required": false,
-      "value": "false"  
+      "value": "true"  
    },      
     "AUTO_VOICE": {
       "description": "Make it true if want automatic voice reply .",
@@ -60,17 +60,17 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "PRINCE"
+      "value": "KINGDOM"
    }, 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "255763834140"
+      "value": "255654667145"
    }, 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "BWB-XMD"
+      "value": "KINGDOM MD"
    }, 
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
