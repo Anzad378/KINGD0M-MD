@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "whatsApp multi device bot",
   "main": "index.js",
-  "type": "common.js",
+  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
