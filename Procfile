@@ -1,4 +1,1 @@
-
-
-
-web: node kingdom.js && node kingdom.js
+web: node index.js && node index.js
