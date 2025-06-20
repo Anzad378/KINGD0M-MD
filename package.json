@@ -1,115 +1,11 @@
-
-
-
-
-
-
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
   "name": "KINGDOM MD",
   "version": "2.0.0",
   "description": "WhatsApp Multi Device Bot",
-  "main": "kingdom.js",
+  "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node kingdom.js"
+    "start": "node index.js"
   },
   "keywords": [
     "termux",
@@ -121,7 +17,7 @@
     "bot-md",
     "whatsapp-multi-device"
   ],
-  "author": "bwb",
+  "author": "kingdom md",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
